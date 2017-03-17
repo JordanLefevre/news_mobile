@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="htc_vive">HTC Vive</string>
+    <string name="oculus_rift">Oculus Rift</string>
+    <string name="realite_augmentee">Réalité augmentée</string>
+    <string name="realite_virtuelle">Réalité virtuelle</string>
+    <string name="video_360">Vidéos 360</string>
+    <string name="preferences">Préférences</string>
+    <string name="categoriesTitle">Catégories</string>
+
+    <color name="grey">#DDDDDD</color>
+    <color name="darkGrey">#252525</color>
+</resources>

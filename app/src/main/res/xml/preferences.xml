@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <MultiSelectListPreference
+        android:enabled="true"
+        android:defaultValue="@array/categories_names"
+        android:entries="@array/categories_label"
+        android:entryValues="@array/categories_names"
+        android:key="selectedCategories"
+        android:persistent="true"
+        android:title="@string/categoriesTitle"/>
+    <CheckBoxPreference
+        android:key="notif_pref"
+        android:title="Notification"
+        android:summary="Envoyer notification"/>
+</PreferenceScreen>
