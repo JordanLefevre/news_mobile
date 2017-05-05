@@ -77,10 +77,13 @@ public class MyAdapter extends
             author.setText(news.auteur.name + ", ");
             publicationDate.setText(news.publicationDate);
             nbComments.setText(String.valueOf(news.nb_comments));
-            Picasso.with(image.getContext())
-                    .load(news.attachments[0].url)
-                    .error(R.drawable.no_image)
-                    .into(image);
+
+            if(news.attachments.length > 0) {
+                Picasso.with(image.getContext())
+                        .load(news.attachments[0].url)
+                        .error(R.drawable.no_image)
+                        .into(image);
+            }
         }
 
         public void onClick(View v) {
